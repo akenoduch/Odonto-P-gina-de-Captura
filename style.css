@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(143, 23, 117);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.title{
+    font-size: 26px;
+}
+
+section{
+  padding: 20px;
+  background-image: url(./Assets/fundo.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.logoContainer{
+    background-color: rgba(177, 33, 158, 0.199);
+    padding: 170px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.formContainer{
+    max-width: 230px;
+    background-color: rgba(255, 255, 255, 0.527);
+    padding: 20px;
+    float: right;
+}
+
+h2{
+    font-size: 16px;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 11px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"]{
+    position: relative;
+    top: 19px;
+    left: 90px;
+    padding: 7px;
+    -ms-transform: scale(1.15); /* IE */
+    -moz-transform: scale(1.15); /* FF */
+    -webkit-transform: scale(1.15); /* Safari and Chrome */
+    -o-transform: scale(1.15); /* Opera */
+    transform: scale(1.15);
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+input[type="date"]{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.582);
+}
+
+input[type="submit"]{
+    color: white;
+    background-color:rgb(143, 23, 117);
+    font-weight: bold;
+}
+
+
+.description{
+    color: white;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.description p, .description h3{
+    margin-bottom: 20px;
+}
+
+.description h3{
+    font-size: 22px;
+}
+
+@media screen and (max-width:600px) {
+    .formContainer{
+        max-width: 100%;
+
+    }
+
+}
